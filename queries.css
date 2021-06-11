@@ -1,0 +1,14 @@
+/* smaller than 800px row */
+@media only screen and (max-width: 770px) {
+  div.card-box {
+    width: 100%;
+  }
+
+  div.box.box-dark {
+    border-radius: 0;
+  }
+
+  div.box.box-light {
+    border-radius: 0 0 10px 10px;
+  }
+}
