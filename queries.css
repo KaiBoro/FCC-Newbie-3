@@ -1,5 +1,5 @@
 /* smaller than 800px row */
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 767px) {
   div.card-box {
     width: 100%;
   }
