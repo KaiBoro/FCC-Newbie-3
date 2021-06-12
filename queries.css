@@ -6,9 +6,11 @@
 
   div.box.box-dark {
     border-radius: 0;
+    height: 100%;
   }
 
   div.box.box-light {
     border-radius: 0 0 10px 10px;
+    height: 100%;
   }
 }

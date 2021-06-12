@@ -63,6 +63,7 @@ body {
   background-color: hsl(179, 62%, 43%);
   color: #ffffff;
   border-radius: 0 0 0 10px;
+  height: 267px;
 }
 
 .box-dark span {
