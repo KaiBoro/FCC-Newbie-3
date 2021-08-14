@@ -2,6 +2,11 @@
 @media only screen and (max-width: 767px) {
   .card-box {
     width: 100%;
+    margin-top: 5%;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
   }
 
   .box-dark {
@@ -12,5 +17,12 @@
   .box-light {
     border-radius: 0 0 10px 10px;
     height: 100%;
+  }
+
+  .attribution {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
   }
 }

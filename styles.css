@@ -8,7 +8,7 @@
 html,
 body {
   font-size: 16px;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   background-color: hsl(204, 43%, 93%);
@@ -21,7 +21,10 @@ body {
 
 /* ------ BOXES ------ */
 .card-box {
-  margin-top: 7%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -63,7 +66,6 @@ body {
   background-color: hsl(179, 62%, 43%);
   color: #ffffff;
   border-radius: 0 0 0 10px;
-  height: 267px;
 }
 
 .box-dark span {
@@ -128,12 +130,16 @@ li {
 }
 
 /* ------ ATTRIBUTION ------ */
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-    color: hsl(228, 45%, 44%);
-  }
+.attribution {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 1650%);
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
