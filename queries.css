@@ -1,15 +1,15 @@
-/* smaller than 800px row */
+/* smaller than 767px row */
 @media only screen and (max-width: 767px) {
-  div.card-box {
+  .card-box {
     width: 100%;
   }
 
-  div.box.box-dark {
+  .box-dark {
     border-radius: 0;
     height: 100%;
   }
 
-  div.box.box-light {
+  .box-light {
     border-radius: 0 0 10px 10px;
     height: 100%;
   }
